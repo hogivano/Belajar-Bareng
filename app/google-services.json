@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894965368947",
+    "firebase_url": "https://belajar-bareng.firebaseio.com",
+    "project_id": "belajar-bareng",
+    "storage_bucket": "belajar-bareng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894965368947:android:7552bae4b75926b1",
+        "android_client_info": {
+          "package_name": "com.trydev.belajarbareng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894965368947-2f0pqsrhkmd1duitdhtl3mqqfuers0sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trydev.belajarbareng",
+            "certificate_hash": "0f18dcf7b672c67548e2e00daf2e5fb891634f73"
+          }
+        },
+        {
+          "client_id": "894965368947-tsd38499po6gn4lsmg91nchjdjpp29et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi9coqf68bYE8Jf0cTeQEzooNd-DrohOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894965368947-tsd38499po6gn4lsmg91nchjdjpp29et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

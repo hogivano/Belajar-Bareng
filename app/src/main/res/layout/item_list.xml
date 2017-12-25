@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lokasi"
+        android:text="Lokasi Siola"
+        android:layout_marginBottom="3dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul ini"
+        android:layout_below="@id/lokasi"
+        android:id="@+id/judul"
+        android:layout_marginBottom="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/12/2017"
+        android:layout_below="@id/judul"
+        android:id="@+id/tanggal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mulai :"
+        android:textSize="12dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/judul"
+        android:layout_toEndOf="@+id/tanggal"
+        android:id="@+id/mulai" />
+    <TextView
+        android:id="@+id/jamMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/mulai"
+        android:text="12:59" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selesai :"
+        android:textSize="12sp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/judul"
+        android:layout_toEndOf="@+id/jamMulai"
+        android:id="@+id/selesai"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jamSelesai"
+        android:text="20:30"
+        android:layout_below="@+id/judul"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/selesai"/>
+</RelativeLayout>
